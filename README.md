@@ -82,7 +82,7 @@ If you have problems downloading the "v1-5-pruned-emaonly" model during installa
 
 If http://127.0.0.1:7860/ is live, it means it has been installed successfully.
 
-If you are getting an error, in order to install the same versions as me, go to the venv\Scripts directory from the current directory and run the venv virtual environment with the stdutd environment open with the activate command. Then, copy the utdrequirements.txt file in the kohya_ss-22.6.0-venv folder in this github project to the venv\Scripts folder, install the requirements with the "pip install -r requirements.txt" command and re-run the webui-user.bat file. This will help solve your problem. This way, you will have installed the same versions as me. Remember that your Cuda version and the Cuda versions in our library must be compatible with your graphics card.
+If you are getting an error, in order to install the same versions as me, go to the venv\Scripts directory from the current directory and run the venv virtual environment with the stdutd environment open with the activate command. Then, copy the utdrequirements.txt file in the stable-diffusion-webui-1.4.0-venv folder in this github project to the venv\Scripts folder, install the requirements with the "pip install -r requirements.txt" command and re-run the webui-user.bat file. This will help solve your problem. This way, you will have installed the same versions as me. Remember that your Cuda version and the Cuda versions in our library must be compatible with your graphics card.
 
 If stable diffusion is turned on successfully, set COMMANDLINE_ARGS=--xformers" line to "COMMANDLINE_ARGS=--xformers --skip-install" for faster startup on subsequent startups.
 
@@ -176,7 +176,7 @@ Kurulum sırasında "v1-5-pruned-emaonly" modelinin indirilmesinde sorun yaşıy
 
 Eğer http://127.0.0.1:7860/ yayında ise başarılı bir şekilde kurulmuş demektir.
 
-Eğer hata alıyorsanız benimle aynı sürümleri kurabilmek adına mevcut dizinden venv\Scripts dizinine gidip activate komutu ile venv sanal ortamını stdutd ortamı açıkken çalıştırın. Ardından bu github projemde yer alan kohya_ss-22.6.0-venv klasöründeki utdrequirements.txt dosyasını venv\Scripts klasörüne kopyalayıp "pip install -r requirements.txt" komutu ile gereklilikleri yükleyin ve webui-user.bat dosyasını yeniden çalıştırın. Bu sorununuzu çözmeye yardımcı olacaktır. Böylece benimle aynı sürümleri kurmuş olacaksınız. Unutmayın ki Cuda versiyonunuz ve kütüphanemizde yer alan Cuda versiyonları sizin ekran kartınızla uyumlu olmalıdır.
+Eğer hata alıyorsanız benimle aynı sürümleri kurabilmek adına mevcut dizinden venv\Scripts dizinine gidip activate komutu ile venv sanal ortamını stdutd ortamı açıkken çalıştırın. Ardından bu github projemde yer alan stable-diffusion-webui-1.4.0-venv klasöründeki utdrequirements.txt dosyasını venv\Scripts klasörüne kopyalayıp "pip install -r requirements.txt" komutu ile gereklilikleri yükleyin ve webui-user.bat dosyasını yeniden çalıştırın. Bu sorununuzu çözmeye yardımcı olacaktır. Böylece benimle aynı sürümleri kurmuş olacaksınız. Unutmayın ki Cuda versiyonunuz ve kütüphanemizde yer alan Cuda versiyonları sizin ekran kartınızla uyumlu olmalıdır.
 
 Eğer stable diffusion başarılı bir şekilde açılırsa bir sonraki başlatmalarda daha hızlı başlangıç için "set COMMANDLINE_ARGS=--xformers" satırını "set COMMANDLINE_ARGS=--xformers --skip-install" olarak değiştirin.
 
