@@ -90,7 +90,7 @@ If stable diffusion is turned on successfully, set COMMANDLINE_ARGS=--xformers" 
 
 ### Sample Lora Training and Usage Video
 
-Will be uploaded soon...
+[Youtube Video](https://youtu.be/guUk2pZf7AY)
 
 # Stable Diffusion WebUi ve Kohya Basit Kurulum Rehberi
 
@@ -183,6 +183,4 @@ Eğer stable diffusion başarılı bir şekilde açılırsa bir sonraki başlatm
 
 ### Örnek Lora Eğitimi ve Kullanım Videosu
 
-Yakında yüklenecek...
-
-
+[Youtube Video](https://youtu.be/guUk2pZf7AY)
